@@ -18,8 +18,8 @@ const nextConfig = {
     serverComponentsExternalPackages: ["mongoose"],
   },
   env: {
-    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME,
-    NEXT_PUBLIC_CLOUDINARY_PRESET_NAME: process.env.NEXT_PUBLIC_CLOUDINARY_PRESET_NAME,
+    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: "dc3apwy48",
+    NEXT_PUBLIC_CLOUDINARY_PRESET_NAME: "qhikvp7o",
   },
   webpack: (config) => {
     config.resolve.alias["@"] = resolve(__dirname);
